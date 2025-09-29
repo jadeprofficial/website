@@ -3,10 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>〇〇大学ダンスサークル</title>
+    <title>Dancing Crew JADE Official Website</title>
+    <link rel="stylesheet" href="website/style.css">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <h1>〇〇大学ダンスサークルへようこそ！</h1>
-    <p>このサイトは現在準備中です。</p>
+
+    <!-- Splash screen for loading animation -->
+    <div id="splash">
+        <div id="splash-logo">
+            <!-- ここにサークルのロゴを配置 (例: img or svg) -->
+            <img src="website/logo_placeholder.svg" alt="Dancing Crew JADE Logo">
+        </div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-container">
+                <!-- ロゴのプレースホルダー -->
+                <img src="website/logo_placeholder.svg" alt="JADE Logo" class="header-logo">
+                <h1>Dancing Crew JADE</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>[ダミー1: キャッチコピー]</h2>
+            <p>[ダミー2: サークルの簡単な紹介文]</p>
+        </section>
+
+        <section id="introduction">
+            <h2>INTRODUCTION</h2>
+            <div class="intro-box">
+                <h3>サークルの歴史</h3>
+                <p>[ダミー3: ここにサークルの歴史に関する文章が入ります。設立年や主な活動の変遷など。]</p>
+            </div>
+            <div class="intro-box">
+                <h3>メンバー</h3>
+                <p>[ダミー4: ここにサークルの人数や構成に関する文章が入ります。総人数、男女比、学年比など。]</p>
+            </div>
+             <div class="intro-box">
+                <h3>活動内容</h3>
+                <p>[ダミー5: ここにサークルの主な活動内容に関する文章が入ります。練習日、場所、年間のイベントなど。]</p>
+            </div>
+        </section>
+
+        <section id="summary">
+            <h2>CONTENTS</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3>ABOUT</h3>
+                    <p>[ダミー6: 3つの主要イベントについての簡単な紹介。]</p>
+                    <a href="about.html" class="btn">詳しく見る</a>
+                </div>
+                <div class="summary-card">
+                    <h3>GALLERY</h3>
+                    <p>[ダミー7: イベントの写真や動画で活動の魅力が伝わることの紹介。]</p>
+                    <a href="gallery.html" class="btn">詳しく見る</a>
+                </div>
+                <div class="summary-card">
+                    <h3>NEWS</h3>
+                    <p>[ダミー8: 最新のイベント告知や活動報告、クラウドファンディングについて。]</p>
+                    <a href="news.html" class="btn">詳しく見る</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dancing Crew JADE. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" id="page-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Sticky crowdfunding banner -->
+    <a href="news.html#crowdfunding" id="crowdfunding-banner">
+        <p>クラウドファンディング実施中！<br>ご支援をお願いします</p>
+    </a>
+
+    <script src="website/script.js"></script>
 </body>
 </html>
