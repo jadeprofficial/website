@@ -5,23 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dancing Crew JADE Official Website</title>
     <link rel="stylesheet" href="website/style.css">
-    <!-- Font Awesome for social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-    <!-- Splash screen for loading animation -->
     <div id="splash">
         <div id="splash-logo">
-            <!-- ここにサークルのロゴを配置 (例: img or svg) -->
-            <img src="website/logo_placeholder.svg" alt="Dancing Crew JADE Logo">
+            <img src="website/logo_white.svg" alt="Dancing Crew JADE Logo">
         </div>
     </div>
 
     <header>
         <div class="header-container">
             <a href="index.html" class="logo-container">
-                <!-- ロゴのプレースホルダー -->
                 <img src="website/logo_placeholder.svg" alt="JADE Logo" class="header-logo">
                 <h1>Dancing Crew JADE</h1>
             </a>
@@ -42,59 +38,139 @@
     </header>
 
     <main>
-        <section id="hero">
-            <h2>[ダミー1: キャッチコピー]</h2>
-            <p>[ダミー2: サークルの簡単な紹介文]</p>
+        <section class="hero">
+            <img src="https://picsum.photos/seed/jade-hero/1600/900" alt="[ダミー画像1: 大勢の集合写真]">
         </section>
 
-        <section id="introduction">
-            <h2>INTRODUCTION</h2>
-            <div class="intro-box">
-                <h3>サークルの歴史</h3>
-                <p>[ダミー3: ここにサークルの歴史に関する文章が入ります。設立年や主な活動の変遷など。]</p>
+        <section class="intro-text">
+            <h2>Dancing Crew JADE</h2>
+            <p>[ダミー3: ここにサークルの歴史に関する文章が入ります。設立年や主な活動の変遷など。参考画像で「Dancing Crew JADEは、創部30数年の歴史と〜」と書かれている部分です。]</p>
+            <a href="news.html#crowdfunding" class="crowdfunding-link">[ダミー9: クラウドファンディング実施とご協力のお願い]</a>
+        </section>
+
+        <section class="home-section">
+            <div class="section-title-container">
+                <h2 class="section-title">News</h2>
+                <a href="news.html" class="arrow-link"><i class="fas fa-arrow-right"></i></a>
             </div>
-            <div class="intro-box">
-                <h3>メンバー</h3>
-                <p>[ダミー4: ここにサークルの人数や構成に関する文章が入ります。総人数、男女比、学年比など。]</p>
-            </div>
-             <div class="intro-box">
-                <h3>活動内容</h3>
-                <p>[ダミー5: ここにサークルの主な活動内容に関する文章が入ります。練習日、場所、年間のイベントなど。]</p>
+            <div class="home-content-grid">
+                <div class="news-list">
+                    <div class="news-item">
+                        <p>JADE DANCE PARTY 2025公演 終了のお知らせ</p>
+                        <time>2025.7.4.Fri</time>
+                    </div>
+                    <div class="news-item">
+                        <p>JADE DANCE PARTY 2025開催のお知らせ</p>
+                        <time>2025.6.31.Fri</time>
+                    </div>
+                    <div class="news-item">
+                        <p>JADE 新歓 2025のお知らせ</p>
+                        <time>2025.4.1.Fri</time>
+                    </div>
+                </div>
+                <div class="content-image">
+                    <img src="https://picsum.photos/seed/jade-news/800/600" alt="[ダミー画像2: Newsセクションのイメージ写真]">
+                </div>
             </div>
         </section>
 
-        <section id="summary">
-            <h2>CONTENTS</h2>
-            <div class="summary-grid">
-                <div class="summary-card">
-                    <h3>ABOUT</h3>
-                    <p>[ダミー6: 3つの主要イベントについての簡単な紹介。]</p>
-                    <a href="about.html" class="btn">詳しく見る</a>
+        <section class="home-section">
+            <div class="section-title-container">
+                <h2 class="section-title">About</h2>
+                <a href="about.html" class="arrow-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="home-content-grid reverse">
+                <div class="about-text">
+                    <p>[ダミー6: 慶應義塾大学公認ダンスサークルです。JADE DANCE PARTY, JADE DANCE LIVE, JADE STYLE 各イベントについてのご紹介]</p>
                 </div>
-                <div class="summary-card">
-                    <h3>GALLERY</h3>
-                    <p>[ダミー7: イベントの写真や動画で活動の魅力が伝わることの紹介。]</p>
-                    <a href="gallery.html" class="btn">詳しく見る</a>
-                </div>
-                <div class="summary-card">
-                    <h3>NEWS</h3>
-                    <p>[ダミー8: 最新のイベント告知や活動報告、クラウドファンディングについて。]</p>
-                    <a href="news.html" class="btn">詳しく見る</a>
+                <div class="content-image">
+                    <img src="https://picsum.photos/seed/jade-about/800/600" alt="[ダミー画像3: Aboutセクションのイメージ写真]">
                 </div>
             </div>
         </section>
+
+        <section class="home-section">
+            <div class="section-title-container">
+                <h2 class="section-title">Gallery</h2>
+                <a href="gallery.html" class="arrow-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="gallery-preview">
+                <a href="#" class="gallery-card">
+                    <div class="gallery-card-image">
+                        <img src="https://picsum.photos/seed/jade-gallery1/400/500" alt="[ダミー画像4]">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h4>JADE DANCE PARTY 2025</h4>
+                    </div>
+                </a>
+                <a href="#" class="gallery-card">
+                    <div class="gallery-card-image">
+                        <img src="https://picsum.photos/seed/jade-gallery2/400/500" alt="[ダミー画像5]">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h4>JADE STYLE 2025</h4>
+                    </div>
+                </a>
+                <a href="#" class="gallery-card">
+                    <div class="gallery-card-image">
+                        <img src="https://picsum.photos/seed/jade-gallery3/400/500" alt="[ダミー画像6]">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h4>JADE DANCE LIVE 2024</h4>
+                    </div>
+                </a>
+                <a href="#" class="gallery-card">
+                    <div class="gallery-card-image">
+                        <img src="https://picsum.photos/seed/jade-gallery4/400/500" alt="[ダミー画像7]">
+                    </div>
+                    <div class="gallery-card-caption">
+                        <h4>JADE DANCE PARTY 2024</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="home-section">
+             <div class="section-title-container">
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <a href="#" class="btn">[ダミー10: お問い合わせはこちら]</a>
+        </section>
+
     </main>
 
+    <div class="page-top-container">
+        <a href="#" id="page-top-btn-styled">ページトップへ戻る</a>
+    </div>
+
     <footer>
-        <p>&copy; 2025 Dancing Crew JADE. All Rights Reserved.</p>
+        <div class="footer-main">
+            <div class="footer-links">
+                <div>
+                    <a href="#">概要</a>
+                    <a href="#">プライバシーポリシー</a>
+                    <a href="#">サイトマップ</a>
+                </div>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="about.html">About</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <span>@Dancing Crew JADE</span>
+                <div>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                </div>
+                <img src="website/logo_placeholder.svg" alt="JADE Logo" class="footer-logo">
+            </div>
+        </div>
     </footer>
 
-    <!-- Back to top button -->
-    <a href="#" id="page-top-btn">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- Sticky crowdfunding banner -->
     <a href="news.html#crowdfunding" id="crowdfunding-banner">
         <p>クラウドファンディング実施中！<br>ご支援をお願いします</p>
     </a>
